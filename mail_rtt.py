@@ -9,6 +9,8 @@ import re
 parameter_name = 
 region_name = 'us-west-2'
 # remove for production and use IAM roles within Lambda
+aws_access_key_id = 
+aws_secret_access_key =
 
 # Initialize the SSM client
 ssm = boto3.client('ssm', region_name=region_name, aws_access_key_id=aws_access_key_id,
