@@ -6,7 +6,7 @@ from datetime import datetime
 import re
 
 
-parameter_name = '/mail/rttslalom'
+parameter_name = 
 region_name = 'us-west-2'
 # remove for production and use IAM roles within Lambda
 
