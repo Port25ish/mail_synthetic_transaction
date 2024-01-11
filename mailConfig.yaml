@@ -1,0 +1,14 @@
+parameter_name: /mail/rtt
+region_name: us-west-2
+sender_email: alias@domain.com
+receiver_email: alias@domain.com
+subject: Round Trip Test
+body: This is a test email from Python script.
+smtp_server: mailserver.domain
+smtp_port: 25
+imap_server: outlook.office365.com
+imap_port: 993
+imap_username: alias@doman.com
+timestamp: int(time.time() * 1000)
+log_group_name: aws-log-group-name
+log_stream_name: aws-log-stream-name
