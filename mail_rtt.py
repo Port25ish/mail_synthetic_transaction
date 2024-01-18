@@ -12,7 +12,7 @@ aws_access_key_id =
 aws_secret_access_key = 
 
 #Configs will be Lambda environment variables in production
-with open('C:/Users/paul.ross/OneDrive - Slalom/Code/mailConfig.yaml', 'r') as file:
+with open('C:/Users/paul.ross/OneDrive - /Code/mailConfig.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
 parameter_name = config['parameter_name']
